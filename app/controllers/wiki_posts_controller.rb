@@ -8,6 +8,7 @@ class WikiPostsController < ApplicationController
 
   # GET /wiki_posts/1 or /wiki_posts/1.json
   def show
+    render "example"
   end
 
   # GET /wiki_posts/new
